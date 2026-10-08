@@ -1,0 +1,7 @@
+state/
+logs/
+config/local.env
+.env
+*.db
+.venv/
+__pycache__/

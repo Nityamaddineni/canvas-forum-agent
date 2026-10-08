@@ -1,0 +1,65 @@
+# Phrases the agent may not use. Edit freely; no code change or restart needed.
+# One per line. Matching ignores case and treats curly apostrophes as straight ones.
+# A plain line is matched as whole words. A line starting with "re:" is a regular expression.
+# Blank lines and lines starting with "#" are ignored.
+
+# Overused words (all forms)
+re:\bdelv(?:e|es|ed|ing)\b
+re:\bleverag(?:e|es|ed|ing)\b
+re:\bharness(?:es|ed|ing)?\b
+re:\bfoster(?:s|ed|ing)?\b
+re:\bunderscor(?:e|es|ed|ing)\b
+re:\bembark(?:s|ed|ing)?\b
+tapestry
+robust
+pivotal
+multifaceted
+seamless
+seamlessly
+meticulous
+meticulously
+intricate
+holistic
+synergy
+game-changer
+game changer
+
+# Filler and throat-clearing
+it's worth noting
+it is worth noting
+worth noting that
+it's important to note
+it is important to note
+it's worth mentioning
+in conclusion
+in summary
+to summarize
+to sum up
+at the end of the day
+in today's fast-paced
+in the realm of
+in the world of
+a testament to
+ever-evolving
+ever-changing
+rapidly evolving
+plays a crucial role
+plays a vital role
+plays a pivotal role
+navigate the complexities
+dive into
+deep dive
+unlock the
+shed light on
+I hope this helps
+hope this helps
+feel free to
+happy to help
+as an AI
+certainly!
+
+# "Not just X but Y" and similar contrast patterns
+re:\bnot just\b[^.!?\n]{0,80}\bbut\b
+re:\bnot only\b[^.!?\n]{0,80}\bbut\b
+re:\bnot merely\b[^.!?\n]{0,80}\bbut\b
+re:\b(?:isn't|aren't|wasn't|weren't|is not|are not) (?:just|merely|simply|only)\b[^.!?\n]{0,80}\bbut\b
